@@ -24,6 +24,8 @@ ol {
   margin: 0;
   padding: 0;
 }
+li{list-style: none;
+text-transform: capitalize;}
 /*======== variadle======= */
 :root {
   --primary-color:#2b7728 ;
@@ -323,4 +325,13 @@ p {
 }
 .tastimonial-section .carousel-indicators button:focus {
   opacity: 1;
+}
+/* contract-section */
+form{
+/* padding-left:5rem  !important; */
+margin-left:  10rem !important;
+}
+/* footer-section */
+.footer-top{
+padding-top: 4rem;
 }
